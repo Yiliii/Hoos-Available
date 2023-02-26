@@ -7,12 +7,17 @@ body {
 h1 {
     font-size: 3em;
 }
+.title {
+    display: inline-block;
+}
+.logo {
+    padding: 20px;
 
-
+}
 
 .top-container input[type=text] {
     margin: 80px 0 0 17%;
-    padding: 10px;
+    padding: 11px;
     font-size: 16px;
     border: 1px solid grey;
     float: left;
@@ -23,10 +28,9 @@ h1 {
 .top-container button {
     margin-top: 80px;
     float: left;
-    width: 5%;
     padding: 10px;
-    background: lightblue;
-    color: white;
+
+    background-color: lightblue;
     font-size: 17px;
     border: 1px solid grey;
     border-left: none;
