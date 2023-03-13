@@ -1,7 +1,7 @@
 body {
     text-align: center;
-    margin-top: 150px;
     font-family: sans-serif;
+    background-color: #232D4B;
 }
 
 h1 {
@@ -15,8 +15,14 @@ h1 {
 
 }
 
+.top-container  {
+    margin-top: 7vh;
+    color: white;
+    text-shadow: 0 0 0.5vw #F84C1E;
+}
+
 .top-container input[type=text] {
-    margin: 80px 0 0 17%;
+    margin: 4vh 0 0 17%;
     padding: 11px;
     font-size: 16px;
     border: 1px solid grey;
@@ -26,7 +32,7 @@ h1 {
 }
 
 .top-container button {
-    margin-top: 80px;
+    margin-top: 4vh;
     float: left;
     padding: 10px;
 
@@ -37,27 +43,67 @@ h1 {
     cursor: pointer;
 }
 
+
+.boxes-container    {
+    margin-top: 12%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box-button-icon    {
+    height: 5vw;
+    width: 5vw;
+    padding-bottom: 3vh;
+    margin-top: -5vh;
+}
+
+.box-text   {
+    color:black;
+    text-decoration: none;
+}
+
 .box-left {
-    display: inline-block;
+    display: inline-flexbox;
     color: white;
     font-size: larger;
     text-decoration: none;
-    background-color: gray;
-    width: 10%;
+    background-color: white;
+    width: 8%;
+    height: 100%;
     margin-right: 7%;
-    padding: 5%;
-    margin-top: 8%;
+    padding: 5.5%;
+    box-shadow: 0.2vw 0.3vh 0.8vw 0.7vh grey;
+    transition: 0.3s;
 }
+
 
 .box-right {
-    display: inline-block;
+    display: inline-flexbox;
     color: white;
     font-size: larger;
     text-decoration: none;
-    background-color: gray;
-    width: 10%;
-    padding: 5%;
+    background-color: white;
+    width: 8%;
+    height: 100%;
+    padding: 5.5%;
     margin-left: 7%;
+    box-shadow: 0.2vw 0.3vh 0.8vw 0.7vh grey;
+    transition: 0.3s;
 }
 
+.box-left:hover {
+    background-color: #F84C1E;
+    cursor: pointer;
+}
+
+.box-right:hover {
+    background-color: #F84C1E;
+    cursor: pointer;
+}
+
+.seabass{
+    color:blue;
+
+}
 
