@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background-color: #232D4B;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 1em 0;
+    letter-spacing: 0.05em;
+}
+
+.top-container button:hover {
+    background-color: #fff;
+    color: #F84C1E;
+}
+
+
+.box:hover {
+    background-color: #fff;
+    color: #F84C1E;
+    cursor: pointer;
+}
+
+
+.office-hours {
+    color: white;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+
+.classes-container {
+    margin-top: 10%;
+    color: white;
+    font-size: 1.5em;
+}
+
+.class {
+    margin-top: 5%;
+}
+
+.class-title {
+    color: #F84C1E;
+    font-size: 1.2em;
+}
+
+.class-info {
+    margin-top: 2%;
+}
+
+a {
+    color: white;
+}
+
+.contact-container {
+    margin-top: 10%;
+    color: white;
+    font-size: 1.5em;
+}
+
+.contact-info {
+    margin-top: 5%;
+    font-size: 1.2em;
+}
+
+
