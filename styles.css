@@ -59,6 +59,7 @@ h1 {
 }
 
 .box-text   {
+    text-underline-offset:unset;
     color:black;
     text-decoration: none;
 }
@@ -101,9 +102,52 @@ h1 {
     background-color: #F84C1E;
     cursor: pointer;
 }
-
-.seabass{
-    color:blue;
-
+.department-container    {
+    margin-top: 25%;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+select {
+    margin: 0.5px;
+    width: 1000px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-shadow: 0 0 0.01vw #F84C1E;
+  }  
+  option {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+    cursor: pointer;
+  }
 
+  .courses-option-container{
+    margin-top: 3%;
+    height: 6vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .course-list{
+    margin: 0.5px;
+    width: 1350px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-shadow: 0 0 0.01vw #F84C1E;
+    align-items:center
+  }
