@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ad7e80-658d-45e4-8a33-b01e43f68960" name="Changes" comment="" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="a9277bd0-e539-41f8-964d-88883191350a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
+    </list>
+>>>>>>> origin/ProfilePage
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +24,17 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2MyXxSDd0nxK1nNMpnu8FviAZCp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+=======
+  <component name="ProjectId" id="2LcILRFOVXhimkwqcj7pvHvXl0g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+>>>>>>> origin/ProfilePage
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -26,6 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+<<<<<<< HEAD
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -45,10 +62,66 @@
       <workItem from="1679764783433" duration="23000" />
       <workItem from="1679764824695" duration="526000" />
       <workItem from="1679872262706" duration="175000" />
+=======
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ashle/IdeaProjects/HoosAvailable_website&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Hoos-Available" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Hoos-Available" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9277bd0-e539-41f8-964d-88883191350a" name="Changes" comment="" />
+      <created>1676163889046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676163889046</updated>
+      <workItem from="1676163891653" duration="755000" />
+      <workItem from="1676411529251" duration="595000" />
+      <workItem from="1676431610624" duration="23000" />
+      <workItem from="1676836186329" duration="5835000" />
+      <workItem from="1677605843510" duration="5000" />
+      <workItem from="1677725429069" duration="101000" />
+      <workItem from="1678815159791" duration="1000" />
+      <workItem from="1678815495171" duration="286000" />
+      <workItem from="1678900765680" duration="5000" />
+      <workItem from="1679429958344" duration="196000" />
+      <workItem from="1680980249477" duration="3846000" />
+      <workItem from="1681487327272" duration="1707000" />
+      <workItem from="1681925137991" duration="469000" />
+>>>>>>> origin/ProfilePage
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+>>>>>>> origin/ProfilePage
 </project>
