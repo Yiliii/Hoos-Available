@@ -3,96 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="hoos-available/src/styles.css">
 </head>
 <body>
     <div class="top-container">
         <h1 class="professor-title">Find Professors By Department</h1>
     </div>
+    <input type="text" class="userInput" onkeyup="searchByDept()" placeholder="Search for department..."/>
+    <script>
+      function searchByDept(){
+          let input = document.getElementsByClassName("userInput");
+        let filter = input.value.toUpperCase();
+        let deptContainer = document.getElementsByClassName("department-container");
+        let departments = deptContainer.getElementsByTagName("select");
+        for(let i=0; i<departments.length; i++){
+         let curElem=departments[i];
+          let textVal = curElem.className;
+          if(textVal.toUpperCase().indexOf(filter) > -1)
+            departments[i].style.display="";
+          else
+            departments[i].style.display = "none";
+        }
+      }
+    </script>
     <div class="department-container">
-        <select>
+        <select class = "African American and African Studies">
             <option class="African American and African Studies">African American and African Studies</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+            <option class="Professor"> <a href="#">Professor 1</a> </option>
+            <option class="Professor"><a href="#">Professor 2</a> </option>
+            <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
-            <option class="American Sign Language Program">American Sign Language Program</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+          <select class = "American Sign Language Program">
+              <option class="American Sign Language Program">American Sign Language Program</option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "American Studies">
             <option class="American Studies">American Studies</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Anthropology">
             <option class="Antropology">Antropology</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Art">
             <option class="Art">Art</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Astronomy">
             <option class="Astronomy">Astronomy</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Biology">
             <option class="Biology">Biology</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Chemistry">
             <option class="Chemistry">Chemistry</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Classics">
             <option class="Classics">Classics</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Cognitive Science">
             <option class="Cognitive Science">Cognitive Science</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Creative Writing">
             <option class="Creative Writing">Creative Writing</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Drama">
             <option class="Drama">Drama</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "East Asian Languages">
             <option class="East Asian Languages">East Asian Languages</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
-          <select>
+          <select class = "Economics">
             <option class="Economics">Economics</option>
-            <option class="Professor"> Professor 1 </option>
-            <option class="Professor"> Professor 2</option>
-            <option class="Professor"> Professor 3 </option>
+              <option class="Professor"> <a href="#">Professor 1</a> </option>
+              <option class="Professor"><a href="#">Professor 2</a> </option>
+              <option class="Professor"> <a href="#">Professor 3</a> </option>
           </select>
           
     </div>

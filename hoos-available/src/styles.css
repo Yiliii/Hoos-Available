@@ -1,14 +1,26 @@
-body {
+.boxsections-body {
     text-align: center;
     font-family: sans-serif;
-    background-color: #232D4B;
+    min-height: 100vh;
+    background-color: #232D4B !important;
+
+}
+.home-body {
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: #232D4B !important;
+
 }
 
+
 h1 {
-    font-size: 3em;
+    font-size: 4em;
 }
 .title {
-    display: inline-block;
+    display: block;
+    padding:20px;
+    font-size: 4em;
 }
 .logo {
     padding: 20px;
@@ -16,9 +28,10 @@ h1 {
 }
 
 .top-container  {
-    margin-top: 7vh;
+    padding-top: 10px;
     color: white;
     text-shadow: 0 0 0.5vw #F84C1E;
+    text-align: center;
 }
 
 .top-container input[type=text] {
@@ -54,23 +67,25 @@ h1 {
 .box-button-icon    {
     height: 5vw;
     width: 5vw;
-    padding-bottom: 3vh;
-    margin-top: -5vh;
+    padding-bottom: 1vh;
+    margin-top: -8vh;
 }
 
 .box-text   {
     text-underline-offset:unset;
     color:black;
     text-decoration: none;
+
 }
 
 .box-left {
-    display: inline-flexbox;
+    display: -ms-inline-flexbox;
     color: white;
     font-size: larger;
     text-decoration: none;
     background-color: white;
-    width: 8%;
+    text-align: center;
+    width: 15%;
     height: 100%;
     margin-right: 7%;
     padding: 5.5%;
@@ -80,12 +95,13 @@ h1 {
 
 
 .box-right {
-    display: inline-flexbox;
+    display: -ms-inline-flexbox;
     color: white;
     font-size: larger;
     text-decoration: none;
     background-color: white;
-    width: 8%;
+    text-align: center;
+    width: 15%;
     height: 100%;
     padding: 5.5%;
     margin-left: 7%;
@@ -102,10 +118,17 @@ h1 {
     background-color: #F84C1E;
     cursor: pointer;
 }
+#userInput{
+    margin: 4vh;
+    padding: 11px;
+    font-size: 16px;
+    border: 1px solid grey;
+    width: 60%;
+    background: #f1f1f1;
+}
 .department-container    {
-    margin-top: 25%;
+    margin-top: 10%;
     height: 6vh;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -121,12 +144,20 @@ select {
     font-family: sans-serif;
     cursor: pointer;
     text-shadow: 0 0 0.01vw #F84C1E;
-  }  
-  option {
+  }
+  .Professor {
+      display: block;
     font-size: 16px;
     font-family: sans-serif;
     background-color: #FFFFFF;
     cursor: pointer;
+      text-align: left;
+      text-decoration: none;
+      color: black;
+  }
+  .Professor:hover{
+      text-decoration: underline;
+      font-size: 18px;
   }
 
   .courses-option-container{
@@ -150,3 +181,6 @@ select {
     cursor: pointer;
     text-shadow: 0 0 0.01vw #F84C1E;
   }
+
+
+

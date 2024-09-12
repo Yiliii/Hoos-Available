@@ -1,0 +1,58 @@
+body {
+    background-color: white !important;
+}
+
+.main-content {
+    margin-left: 33%;
+
+}
+
+.side-panel {
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    background-color: lightgray; /* Set the desired color */
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.top-section {
+    display: flex;
+    width: 100%;
+}
+
+.professor-img {
+    width: 300px; /* Set the desired width of the circle */
+    height: 300px; /* Set the desired height of the circle */
+    border-radius: 50%;
+    margin: auto;
+}
+
+.map-container {
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+#map {
+    height: 400px;  /* Set the desired height of the map */
+    width: 100%;    /* Set the desired width of the map */
+    float: left;
+
+
+}
+
+.location-and-hours {
+    width: 50%;
+}
+
+.bottom-container {
+    float: left;
+    width: 50%;
+}
+
+.btn {
+    margin: 40px;
+}
